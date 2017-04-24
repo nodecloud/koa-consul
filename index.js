@@ -1,7 +1,9 @@
 var os = require('os');
 
-module.export = function (options) {
-    var url = options.url;
+module.exports = function (options) {
+    options = options || {};
+
+    var url = options.url || '/health';
     var response = options.response || {
             hostname: os.hostname(),
             platform: os.platform(),
