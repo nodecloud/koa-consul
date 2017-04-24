@@ -18,4 +18,4 @@ app.use(KoaConsul());
 ### KoaConsul(options)
 
 * options.url 
-* options.response
+* options.getInfo: a callback function, if you want custom the /health api's response, please implement this function.

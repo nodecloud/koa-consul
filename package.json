@@ -1,6 +1,6 @@
 {
   "name": "koa-consul",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "koa consul.",
   "main": "index.js",
   "scripts": {
