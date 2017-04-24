@@ -1,0 +1,24 @@
+{
+  "name": "koa-consul",
+  "version": "0.0.1",
+  "description": "koa consul.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaowing/koa-consul.git"
+  },
+  "keywords": [
+    "koa-middleware",
+    "node-consul",
+    "consul health check"
+  ],
+  "author": "miaowing <i@zfeng.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miaowing/koa-consul/issues"
+  },
+  "homepage": "https://github.com/miaowing/koa-consul#readme"
+}
