@@ -1,6 +1,6 @@
 # koa-consul
 
-This middleware will set a /health route as default. The consul server will visit /health for acquiring system info.
+This middleware will set a /health route as default. The consul server will visit /health for acquiring system info and check the service's health status.
 
 ## Usage
 
