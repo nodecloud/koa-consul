@@ -1,6 +1,6 @@
 # koa-consul
 
-This middleware will set a /health route as default. The consul server will visit /health for acquiring system info.
+This middleware will set a /health route as default. The consul server will visit /health for acquiring system info and check the service's health status.
 
 ## Usage
 
@@ -17,5 +17,5 @@ app.use(KoaConsul());
 
 ### KoaConsul(options)
 
-* options.url Custom the health url.
-* options.strategy It's a function that compute the service's health status, when return true, the service is passing, return false, the service is warning.
+* options.url 
+* options.getInfo: a callback function, if you want custom the /health api's response, please implement this function.
