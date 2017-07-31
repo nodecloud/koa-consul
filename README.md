@@ -17,5 +17,5 @@ app.use(KoaConsul());
 
 ### KoaConsul(options)
 
-* options.url 
-* options.getInfo: a callback function, if you want custom the /health api's response, please implement this function.
+* options.url Custom the health url.
+* options.strategy It's a function that compute the service's health status, when return true, the service is passing, return false, the service is warning.
