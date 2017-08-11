@@ -58,7 +58,7 @@ exports.default = function (options) {
                     ctx.status = monitorData.status === 'ok' ? 200 : 429;
                     ctx.body = { status: monitorData.status };
                 } else {
-                    return { status: 'ok' };
+                    ctx.body = { status: 'ok' };
                 }
             } else if (`${url}/detail` === ctx.url) {
                 const monitorData = {
